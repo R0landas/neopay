@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FA09EE17-1970-4AF7-BCD0-E9DAD26EBED8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{D552C5D3-E495-4D9B-B6A5-CFB3ACAC7B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoPay", "src\NeoPay\NeoPay.csproj", "{BBC14CC8-07D7-4BA3-87E0-B940F5FAEEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeoPay.Tests", "tests\NeoPay.Tests\NeoPay.Tests.csproj", "{26F99A59-725F-4482-A910-05D4849B03E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBC14CC8-07D7-4BA3-87E0-B940F5FAEEBE} = {FA09EE17-1970-4AF7-BCD0-E9DAD26EBED8}
+		{26F99A59-725F-4482-A910-05D4849B03E3} = {D552C5D3-E495-4D9B-B6A5-CFB3ACAC7B64}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC14CC8-07D7-4BA3-87E0-B940F5FAEEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC14CC8-07D7-4BA3-87E0-B940F5FAEEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC14CC8-07D7-4BA3-87E0-B940F5FAEEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC14CC8-07D7-4BA3-87E0-B940F5FAEEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F99A59-725F-4482-A910-05D4849B03E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F99A59-725F-4482-A910-05D4849B03E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F99A59-725F-4482-A910-05D4849B03E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F99A59-725F-4482-A910-05D4849B03E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
